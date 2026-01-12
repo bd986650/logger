@@ -28,7 +28,7 @@ npm install
 ```
 
 ```bash
-npm run dev -- ./example_data/data.log
+npm run dev -- ./example_data/data.txt
 ```
 
 ## Тесты
@@ -50,6 +50,6 @@ docker build -t logger .
 Запуск
 ```bash
 docker run --rm \
-  -v "$PWD/example_data/data.log:/data.log:ro" \
-  logger /data.log
+  -v "$PWD/example_data/data.txt:/data.txt:ro" \
+  logger /data.txt
 ```
