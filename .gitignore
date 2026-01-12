@@ -1,0 +1,15 @@
+node_modules/
+
+dist/
+coverage/
+
+*.log
+
+.env
+.env.local
+
+.DS_Store
+.vscode/
+.idea/
+
+npm-debug.log*
